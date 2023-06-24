@@ -392,4 +392,4 @@ document.getElementById("merge-sort").addEventListener("click", mergeSort);
 
 
 
-window.addEventListener("load", generateArray);
+//window.addEventListener("load", generateArray);
