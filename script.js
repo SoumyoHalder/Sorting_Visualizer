@@ -1,5 +1,5 @@
 // Global variables
-const arraySize = 30;
+const arraySize = 25;
 const delay = 50; // Delay in milliseconds
 const array = [];
 
