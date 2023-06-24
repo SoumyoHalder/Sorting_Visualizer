@@ -8,6 +8,7 @@ function generateArray() {
   const arrayContainer = document.getElementById("array-container");
   arrayContainer.innerHTML = "";
 
+  array.length = 0; // Clear the existing array
 
   for (let i = 0; i < arraySize; i++) {
     array.push(Math.floor(Math.random() * 100) + 1);
@@ -16,7 +17,7 @@ function generateArray() {
     bar.style.height = `${array[i]}%`;
     arrayContainer.appendChild(bar);
   }
-  
+
   enableButtons();
 }
 
@@ -392,4 +393,5 @@ document.getElementById("merge-sort").addEventListener("click", mergeSort);
 
 
 
-//window.addEventListener("load", generateArray);
+//Generate new array on loading
+window.addEventListener("load", generateArray);
