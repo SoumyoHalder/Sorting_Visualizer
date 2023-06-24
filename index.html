@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sorting Visualizer</title>
+  <link rel="shortcut icon" href="favicon.webp" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="header_area">
+    <img src="sorting-visualizer.png" alt="Logo" class="logo">
+  </div>
+  <div class="main">
+    <div id="button-container">
+      <button id="generate-array">Generate Array</button>
+      <button id="reset-array">Reset</button>
+    </div>
+
+    <div class="canvas">
+      <div id="array-container"></div>
+    </div>
+    <div id="sorting-container">
+      <div class="sorting-algorithm">
+        <button id="bubble-sort"><h3>Bubble Sort</h3><p>Time Complexity: O(n^2)</p></button>
+      </div>
+
+      <div class="sorting-algorithm">
+        <button id="selection-sort"><h3>Selection Sort</h3>
+          <p>Time Complexity: O(n^2)</p></button>
+      </div>
+
+      <div class="sorting-algorithm">
+        
+        <button id="insertion-sort"><h3>Insertion Sort</h3>
+          <p>Time Complexity: O(n^2)</p></button>
+      </div>
+      <div class="sorting-algorithm">
+        
+        <button id="quick-sort"><h3>Quick Sort</h3>
+          <p>Time Complexity: O(n log n)</p></button>
+      </div>
+      <div class="sorting-algorithm">
+        
+        <button id="merge-sort"><h3>Merge Sort</h3>
+          <p>Time Complexity: O(n log n)</p></button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
