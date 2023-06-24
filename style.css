@@ -7,7 +7,6 @@
   
   body {
     width: 100%;
-    background: linear-gradient(to bottom right, #f8523c0e, #ff6e3036);
     background-image: url(3roCEP.webp);
     background-size: cover;
     background-repeat: no-repeat;
@@ -21,7 +20,7 @@
     font-size: 16px;
     border: none;
     border-radius: 7px;
-    background: transparent;
+    background-color: #f6d2c782;
     cursor: pointer;
     transition: background-color 0.2s;
   }
@@ -68,7 +67,7 @@
   }
   
   .sorting-algorithm {
-    background-color: #ffaf971e;
+    background-color: #ffaf975a;
     border: 0px solid #ccc;
     padding: 0px;
     border-radius: 15px;
