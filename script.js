@@ -391,5 +391,4 @@ document.getElementById("quick-sort").addEventListener("click", quickSort);
 document.getElementById("merge-sort").addEventListener("click", mergeSort);
 
 
-// Generate array on page load
-// window.addEventListener("load", generateArray);
+// Generate array on page loadwindow.addEventListener("load", generateArray);
